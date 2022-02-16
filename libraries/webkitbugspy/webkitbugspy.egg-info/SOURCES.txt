@@ -14,3 +14,9 @@ webkitbugspy.egg-info/dependency_links.txt
 webkitbugspy.egg-info/not-zip-safe
 webkitbugspy.egg-info/requires.txt
 webkitbugspy.egg-info/top_level.txt
+webkitbugspy/mocks/__init__.py
+webkitbugspy/mocks/base.py
+webkitbugspy/mocks/bugzilla.py
+webkitbugspy/mocks/data.py
+webkitbugspy/mocks/github.py
+webkitbugspy/mocks/radar.py

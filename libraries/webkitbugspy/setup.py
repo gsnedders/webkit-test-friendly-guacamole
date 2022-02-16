@@ -49,6 +49,7 @@ setup(
     license='Modified BSD',
     packages=[
         'webkitbugspy',
+        'webkitbugspy.mocks',
     ],
     install_requires=[
         'webkitcorepy',

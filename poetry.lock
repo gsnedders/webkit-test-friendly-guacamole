@@ -1010,7 +1010,7 @@ url = "libraries/webkitbugspy"
 [[package]]
 name = "webkitcorepy"
 version = "0.13.0"
-description = ""
+description = "Library containing various Python support classes and functions."
 category = "main"
 optional = false
 python-versions = "*"
@@ -1140,7 +1140,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "607f6196c5de359c1852c8c448e0d8fa323f2bae5fbee1bcb0efb264a9d0e9d6"
+content-hash = "ee1df93e4979dfbf60070f871b27d8d10863c21054952d816a80bed7e5e57a1a"
 
 [metadata.files]
 astroid = [

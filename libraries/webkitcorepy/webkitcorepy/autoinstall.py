@@ -147,6 +147,7 @@ class Package(object):
         self._archives = []
         self.pypi_name = pypi_name or self.name
         print(f"{self.pypi_name}=={self.version!r}")
+        raise SystemError()
         self.slow_install = slow_install
         self.wheel = wheel
         self.aliases = aliases or []

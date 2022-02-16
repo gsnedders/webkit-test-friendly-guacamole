@@ -53,10 +53,5 @@ from reporelaypy.database import Database
 from reporelaypy.checkoutroute import CheckoutRoute, Redirector
 from reporelaypy.hooks import HookProcessor, HookReceiver
 
-AutoInstall.register(Package('fakeredis', Version(1, 5, 2)))
-AutoInstall.register(Package('hiredis', Version(1, 1, 0)))
-AutoInstall.register(Package('lupa', Version(1, 9)))
-AutoInstall.register(Package('redis', Version(3, 5, 3)))
-AutoInstall.register(Package('sortedcontainers', Version(2, 4, 0)))
 
 name = 'reporelaypy'
