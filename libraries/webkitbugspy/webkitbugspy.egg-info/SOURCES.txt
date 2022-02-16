@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+webkitbugspy/__init__.py
+webkitbugspy/bugzilla.py
+webkitbugspy/github.py
+webkitbugspy/issue.py
+webkitbugspy/radar.py
+webkitbugspy/tracker.py
+webkitbugspy/user.py
+webkitbugspy.egg-info/PKG-INFO
+webkitbugspy.egg-info/SOURCES.txt
+webkitbugspy.egg-info/dependency_links.txt
+webkitbugspy.egg-info/not-zip-safe
+webkitbugspy.egg-info/requires.txt
+webkitbugspy.egg-info/top_level.txt
