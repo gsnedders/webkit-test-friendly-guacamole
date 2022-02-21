@@ -60,7 +60,7 @@ class TestControllerTest(FlaskTestCase, WaitForDockerTestCase):
 
     @WaitForDockerTestCase.mock_if_no_docker(mock_redis=FakeStrictRedis, mock_cassandra=MockCassandraContext)
     @FlaskTestCase.run_with_webserver()
-    def test_list_all(self, client, **kwargs):
+    def test_list_all_two(self, client, **kwargs):
         response = client.get(self.URL + '/api/layout-tests/tests?limit=2')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json(), [
